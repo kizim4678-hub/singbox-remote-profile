@@ -1,0 +1,35 @@
+name: Update sing-box profile
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/30 * * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Generate profile
+        run: |
+          mkdir -p dist
+          python generate_config.py --output dist/sing-box-android-whitelist.json
+
+      - name: Commit updated profile
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add dist/sing-box-android-whitelist.json dist/metadata.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'Update generated sing-box profile'
+          git push
