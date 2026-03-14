@@ -1,43 +1,35 @@
-#!/usr/bin/env python3
-import argparse
-import base64
-import hashlib
-import json
-import re
-import urllib.parse
-import urllib.request
-from typing import Dict, List, Tuple
+name: Update sing-box profile
 
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/30 * * * *'
 
-DEFAULT_SOURCES: List[Tuple[str, str, int]] = [
-    ("zieng2", "https://raw.githubusercontent.com/zieng2/wl/main/vless_lite.txt", 20),
-    ("igareck_checked", "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-checked.txt", 20),
-    ("avencores_26", "https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/main/githubmirror/26.txt", 12),
-]
+permissions:
+  contents: write
 
-RESERVE_SOURCES: List[Tuple[str, str, int]] = [
-    ("igareck_all", "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt", 12),
-]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
 
-def _decode_base64url_nopad(value: str) -> bytes:
-    s = value.strip()
-    s += "=" * ((4 - len(s) % 4) % 4)
-    return base64.urlsafe_b64decode(s.encode())
+      - name: Generate profile
+        run: |
+          mkdir -p dist
+          python generate_config.py --output dist/sing-box-android-whitelist.json
 
-
-def valid_reality_public_key(value: str) -> bool:
-    if not value or not re.fullmatch(r"[A-Za-z0-9_-]{43,44}", value.strip()):
-        return False
-    try:
-        raw = _decode_base64url_nopad(value.strip())
-    except Exception:
-        return False
-    return len(raw) == 32
-
-
-def normalize_short_id(value: str) -> str:
-    s = (value or "").strip().lower()
-    if not s:
-        return ""
-    if re.fullmatch(r"[0-9a-f]{1,16}", s
+      - name: Commit updated profile
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add dist/sing-box-android-whitelist.json dist/metadata.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'Update generated sing-box profile'
+          git push
