@@ -898,6 +898,26 @@
     },
     {
       "type": "vless",
+      "tag": "avencores_26_0014 - Unknown _CID_VPN_2e752f9c",
+      "server": "srv13.ezcon24.online",
+      "server_port": 11444,
+      "uuid": "217e8d75-528f-4198-8217-ae2885ac9dba",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.sun6-21.userapi.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "vII0ktWC5uuvMBFEvgYpftqq6mCjEfCpEg_s8eT_oh8"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "avencores_26__openproxylist.com_ vless-PL_663b14dd",
       "server": "144.31.2.176",
       "server_port": 57172,
@@ -1125,26 +1145,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "avencores_26_0014 - Unknown _CID_VPN_2e752f9c",
-      "server": "srv13.ezcon24.online",
-      "server_port": 11444,
-      "uuid": "217e8d75-528f-4198-8217-ae2885ac9dba",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sun6-21.userapi.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "vII0ktWC5uuvMBFEvgYpftqq6mCjEfCpEg_s8eT_oh8"
-        }
-      }
-    },
-    {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
@@ -1188,6 +1188,7 @@
         "igareck_checked__ Anycast-IP _CIDR_ VK_fceb39cd",
         "igareck_checked__ Anycast-IP _CIDR_ VK_0c6dd439",
         "igareck_checked__ Anycast-IP _CIDR_ VK_d939c72e",
+        "avencores_26_0014 - Unknown _CID_VPN_2e752f9c",
         "avencores_26__openproxylist.com_ vless-PL_663b14dd",
         "avencores_26__openproxylist.com_ vless-DE_db1d7d96",
         "avencores_26__openproxylist.com_ vless-NL_dd060903",
@@ -1198,8 +1199,7 @@
         "avencores_26__openproxylist.com_ vless-RU_ae964fc7",
         "avencores_26__openproxylist.com_ vless-IE_89353f3d",
         "avencores_26__openproxylist.com_ vless-NO_79b51637",
-        "avencores_26__openproxylist.com_ vless-PT_1509b8e1",
-        "avencores_26_0014 - Unknown _CID_VPN_2e752f9c"
+        "avencores_26__openproxylist.com_ vless-PT_1509b8e1"
       ],
       "url": "https://cp.cloudflare.com",
       "interval": "5m",
@@ -1252,6 +1252,7 @@
         "igareck_checked__ Anycast-IP _CIDR_ VK_fceb39cd",
         "igareck_checked__ Anycast-IP _CIDR_ VK_0c6dd439",
         "igareck_checked__ Anycast-IP _CIDR_ VK_d939c72e",
+        "avencores_26_0014 - Unknown _CID_VPN_2e752f9c",
         "avencores_26__openproxylist.com_ vless-PL_663b14dd",
         "avencores_26__openproxylist.com_ vless-DE_db1d7d96",
         "avencores_26__openproxylist.com_ vless-NL_dd060903",
@@ -1262,8 +1263,7 @@
         "avencores_26__openproxylist.com_ vless-RU_ae964fc7",
         "avencores_26__openproxylist.com_ vless-IE_89353f3d",
         "avencores_26__openproxylist.com_ vless-NO_79b51637",
-        "avencores_26__openproxylist.com_ vless-PT_1509b8e1",
-        "avencores_26_0014 - Unknown _CID_VPN_2e752f9c"
+        "avencores_26__openproxylist.com_ vless-PT_1509b8e1"
       ],
       "default": "auto",
       "interrupt_exist_connections": true
