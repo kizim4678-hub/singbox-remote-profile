@@ -123,10 +123,10 @@
     },
     {
       "type": "vless",
-      "tag": "zieng2__ VK _ _1_254ccf1c",
+      "tag": "zieng2__ VK _ _1_9eb503bc",
       "server": "89.208.231.191",
       "server_port": 8443,
-      "uuid": "c6b77fbb-871a-07d0-b3b0-8c03ed029f7b",
+      "uuid": "4191b268-8d8e-07d0-ac04-55a08e49a45d",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -350,33 +350,29 @@
     },
     {
       "type": "vless",
-      "tag": "zieng2__ MegaMax Network _ _12_66182323",
+      "tag": "zieng2__ FDCservers.net _ _12_b9baae0b",
+      "server": "66.90.90.13",
+      "server_port": 8443,
+      "uuid": "6f98a077-004e-4b86-8b78-8d09308d3868",
+      "flow": "xtls-rprx-vision-udp443",
+      "tls": {
+        "enabled": true,
+        "server_name": "ai-6a607097.noooo.win",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "zieng2__ MegaMax Network _ _13_d77fd836",
       "server": "212.67.9.113",
       "server_port": 2200,
       "uuid": "2aa7f4b1-e859-46d0-b8ac-8587811ab7b1",
       "transport": {
         "type": "ws",
         "path": "/v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "zieng2__ ProCloud _ _13_b3a2ad96",
-      "server": "185.147.27.155",
-      "server_port": 443,
-      "uuid": "6f98a077-004e-4b86-8b78-8d09308d3868",
-      "tls": {
-        "enabled": true,
-        "server_name": "stats.vk-portal.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs",
-          "short_id": "992f3294e2336744"
-        }
       }
     },
     {
@@ -401,8 +397,8 @@
     },
     {
       "type": "vless",
-      "tag": "zieng2__ ProCloud _ _15_f858a306",
-      "server": "185.147.27.5",
+      "tag": "zieng2__ ProCloud _ _15_a34f80ed",
+      "server": "185.147.27.155",
       "server_port": 443,
       "uuid": "6f98a077-004e-4b86-8b78-8d09308d3868",
       "tls": {
@@ -410,7 +406,7 @@
         "server_name": "stats.vk-portal.net",
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -421,7 +417,7 @@
     },
     {
       "type": "vless",
-      "tag": "zieng2__ ProCloud _ _16_9a599335",
+      "tag": "zieng2__ ProCloud _ _16_81408adf",
       "server": "185.147.27.155",
       "server_port": 443,
       "uuid": "6f98a077-004e-4b86-8b78-8d09308d3868",
@@ -430,7 +426,7 @@
         "server_name": "stats.vk-portal.net",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "ios"
         },
         "reality": {
           "enabled": true,
@@ -713,8 +709,30 @@
     },
     {
       "type": "vless",
-      "tag": "avencores_26__V2CROSS.COM_9dad7f31",
-      "server": "45.196.201.96",
+      "tag": "avencores_26__2026-07-24_c6251ca2",
+      "server": "154.193.55.183",
+      "server_port": 443,
+      "uuid": "11e57eeb-ffdf-4983-a9fa-ad352dea7253",
+      "flow": "xtls-rprx-vision",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "storage.yandex.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4",
+          "short_id": "dbbe8dca27a92c35"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "avencores_26_PH_https_a9a.xyz_1_4b8ee8ee",
+      "server": "45.196.201.70",
       "server_port": 443,
       "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
       "flow": "xtls-rprx-vision",
@@ -734,160 +752,144 @@
     },
     {
       "type": "vless",
-      "tag": "avencores_26__RU_5_1.5MB_s_fee32b35",
-      "server": "185.147.27.155",
+      "tag": "avencores_26_PH_https_a9a.xyz_2_30c7404b",
+      "server": "45.196.201.180",
       "server_port": 443,
-      "uuid": "6f98a077-004e-4b86-8b78-8d09308d3868",
+      "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "stats.vk-portal.net",
+        "server_name": "storage.yandex.net",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04",
+          "short_id": "c6ef72e4635d15a5"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "avencores_26__RU_6_1.9MB_s_1a92084d",
-      "server": "164.138.100.196",
+      "tag": "avencores_26_NL_https_a9a.xyz_13_2cb33be8",
+      "server": "freenl.strettenvpn.com",
       "server_port": 443,
-      "uuid": "781be37f-2ed2-40b3-a013-f416e0450fd0",
+      "uuid": "b04a708a-7e56-45f9-9557-2d6253a8de6e",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "api-maps.yandex.ru",
+        "server_name": "sun6-21.userapi.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "yhUfTGgu5PYRlFqMnRZkxffH_aU05AFUToGI8_EKF28",
+          "short_id": "8248954896"
         }
-      },
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "avencores_26_PH_https_a9a.xyz_14_190673d3",
+      "server": "45.196.201.28",
+      "server_port": 443,
+      "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "storage.yandex.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04",
+          "short_id": "c6ef72e4635d15a5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "avencores_26_PH_https_a9a.xyz_15_c4e474e0",
+      "server": "45.196.201.101",
+      "server_port": 443,
+      "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "storage.yandex.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04",
+          "short_id": "c6ef72e4635d15a5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "avencores_26_PH_https_a9a.xyz_16_52bba604",
+      "server": "45.196.201.220",
+      "server_port": 443,
+      "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "storage.yandex.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04",
+          "short_id": "c6ef72e4635d15a5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "avencores_26_PH_https_a9a.xyz_17_847149e0",
+      "server": "45.196.201.201",
+      "server_port": 443,
+      "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "storage.yandex.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04",
+          "short_id": "c6ef72e4635d15a5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "avencores_26_RU_https_a9a.xyz_29_2a041209",
+      "server": "194.87.161.60",
+      "server_port": 4100,
+      "uuid": "9b44bfb4-9d28-4870-9fc3-5154d6d462ff",
       "transport": {
-        "type": "grpc",
-        "service_name": "ru-br-yandex"
+        "type": "ws",
+        "path": "/v1"
       }
     },
     {
       "type": "vless",
-      "tag": "avencores_26__HU_1_1.7MB_s_2aa1e7b1",
-      "server": "152.233.41.13",
-      "server_port": 16923,
-      "uuid": "781be37f-2ed2-40b3-a013-f416e0450fd0",
-      "tls": {
-        "enabled": true,
-        "server_name": "api-maps.yandex.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "neurex"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "avencores_26_TW_speednode_0053_585789ba",
-      "server": "45.206.0.29",
-      "server_port": 8443,
-      "uuid": "52faee73-e0fe-4661-992d-67259257170f",
-      "flow": "xtls-rprx-vision-udp443",
-      "tls": {
-        "enabled": true,
-        "server_name": "storage.yandex.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "avencores_26__ 16 _ Mor-02_ MTSRVRS_8238c28a",
-      "server": "45.196.201.20",
-      "server_port": 443,
-      "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "storage.yandex.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04",
-          "short_id": "c6ef72e4635d15a5"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "avencores_26__ 68 _ Mor-02_ MTSRVRS_392e1942",
-      "server": "45.196.201.78",
-      "server_port": 443,
-      "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "storage.yandex.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04",
-          "short_id": "c6ef72e4635d15a5"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "avencores_26__ 87 _ Mor-02_ MTSRVRS_383a1435",
-      "server": "45.196.201.34",
-      "server_port": 443,
-      "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "storage.yandex.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04",
-          "short_id": "c6ef72e4635d15a5"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "avencores_26__openproxylist.com_ vless-DE_ad10bcea",
-      "server": "92.223.109.89",
-      "server_port": 443,
-      "uuid": "c436d7dc-170d-40bf-b2b8-6cf468db5e65",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "mc.yandex.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "wlCVdU8TCIBjIKRPWA6kpmptW0MV9rCP8WfWLSapsjU",
-          "short_id": "cc7dc5fb"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "avencores_26__ PH _ 45.196.201.64_17cccb3b",
+      "tag": "avencores_26_PH_https_a9a.xyz_38_f09103ea",
       "server": "45.196.201.64",
       "server_port": 443,
       "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
@@ -908,8 +910,8 @@
     },
     {
       "type": "vless",
-      "tag": "avencores_26__ PH _ 45.196.201.98_8c7272b1",
-      "server": "45.196.201.98",
+      "tag": "avencores_26__V2CROSS.COM_002d614d",
+      "server": "45.196.201.80",
       "server_port": 443,
       "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
       "flow": "xtls-rprx-vision",
@@ -922,28 +924,23 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04"
+          "public_key": "zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04",
+          "short_id": "c6ef72e4635d15a5"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "avencores_26__ CH _ 45.195.137.5_38809742",
-      "server": "45.195.137.5",
-      "server_port": 8443,
-      "uuid": "06bcd513-ef0b-4c0c-a03b-e25fcda66fe2",
-      "flow": "xtls-rprx-vision",
+      "tag": "avencores_26__RU_4_1.6MB_s_4b65b5da",
+      "server": "rus.fasti.win",
+      "server_port": 443,
+      "uuid": "6f98a077-004e-4b86-8b78-8d09308d3868",
       "tls": {
         "enabled": true,
-        "server_name": "storage.yandex.net",
+        "server_name": "stats.vk-portal.net",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY",
-          "short_id": "40ce08cf20c67003"
+          "fingerprint": "ios"
         }
       }
     },
@@ -955,7 +952,7 @@
         "zieng2__ _ _ __2ad6b4cf",
         "zieng2_https_github.com_zieng2_wl_8d4d89ca",
         "zieng2_https_t.me_zieng2_b255f050",
-        "zieng2__ VK _ _1_254ccf1c",
+        "zieng2__ VK _ _1_9eb503bc",
         "zieng2__ 4vps.su _ _2_fc907777",
         "zieng2__ Beget _ _3_e6a8d186",
         "zieng2__ Beget _ _4_eaaccf05",
@@ -966,11 +963,11 @@
         "zieng2__ Beget _ _9_8cb74321",
         "zieng2__ Beget _ _10_f54ba1c9",
         "zieng2__ Beget _ _11_204af909",
-        "zieng2__ MegaMax Network _ _12_66182323",
-        "zieng2__ ProCloud _ _13_b3a2ad96",
+        "zieng2__ FDCservers.net _ _12_b9baae0b",
+        "zieng2__ MegaMax Network _ _13_d77fd836",
         "zieng2__ ProCloud _ _14_47aa70df",
-        "zieng2__ ProCloud _ _15_f858a306",
-        "zieng2__ ProCloud _ _16_9a599335",
+        "zieng2__ ProCloud _ _15_a34f80ed",
+        "zieng2__ ProCloud _ _16_81408adf",
         "igareck_checked__ Italy _ _CIDR_ YA_64b21dbb",
         "igareck_checked__ Italy _ _CIDR_ YA_aef871e1",
         "igareck_checked__ Italy _ _CIDR_ YA_51122143",
@@ -983,18 +980,18 @@
         "igareck_checked__ Russia _ _ _ _CIDR_ VK_10ed795d",
         "igareck_checked__ Russia _ _ _ _CIDR_ VK_26c60138",
         "igareck_checked__ Anycast-IP _ _ _ _CIDR_ YA_0ba22822",
-        "avencores_26__V2CROSS.COM_9dad7f31",
-        "avencores_26__RU_5_1.5MB_s_fee32b35",
-        "avencores_26__RU_6_1.9MB_s_1a92084d",
-        "avencores_26__HU_1_1.7MB_s_2aa1e7b1",
-        "avencores_26_TW_speednode_0053_585789ba",
-        "avencores_26__ 16 _ Mor-02_ MTSRVRS_8238c28a",
-        "avencores_26__ 68 _ Mor-02_ MTSRVRS_392e1942",
-        "avencores_26__ 87 _ Mor-02_ MTSRVRS_383a1435",
-        "avencores_26__openproxylist.com_ vless-DE_ad10bcea",
-        "avencores_26__ PH _ 45.196.201.64_17cccb3b",
-        "avencores_26__ PH _ 45.196.201.98_8c7272b1",
-        "avencores_26__ CH _ 45.195.137.5_38809742"
+        "avencores_26__2026-07-24_c6251ca2",
+        "avencores_26_PH_https_a9a.xyz_1_4b8ee8ee",
+        "avencores_26_PH_https_a9a.xyz_2_30c7404b",
+        "avencores_26_NL_https_a9a.xyz_13_2cb33be8",
+        "avencores_26_PH_https_a9a.xyz_14_190673d3",
+        "avencores_26_PH_https_a9a.xyz_15_c4e474e0",
+        "avencores_26_PH_https_a9a.xyz_16_52bba604",
+        "avencores_26_PH_https_a9a.xyz_17_847149e0",
+        "avencores_26_RU_https_a9a.xyz_29_2a041209",
+        "avencores_26_PH_https_a9a.xyz_38_f09103ea",
+        "avencores_26__V2CROSS.COM_002d614d",
+        "avencores_26__RU_4_1.6MB_s_4b65b5da"
       ],
       "url": "https://cp.cloudflare.com",
       "interval": "5m",
@@ -1011,7 +1008,7 @@
         "zieng2__ _ _ __2ad6b4cf",
         "zieng2_https_github.com_zieng2_wl_8d4d89ca",
         "zieng2_https_t.me_zieng2_b255f050",
-        "zieng2__ VK _ _1_254ccf1c",
+        "zieng2__ VK _ _1_9eb503bc",
         "zieng2__ 4vps.su _ _2_fc907777",
         "zieng2__ Beget _ _3_e6a8d186",
         "zieng2__ Beget _ _4_eaaccf05",
@@ -1022,11 +1019,11 @@
         "zieng2__ Beget _ _9_8cb74321",
         "zieng2__ Beget _ _10_f54ba1c9",
         "zieng2__ Beget _ _11_204af909",
-        "zieng2__ MegaMax Network _ _12_66182323",
-        "zieng2__ ProCloud _ _13_b3a2ad96",
+        "zieng2__ FDCservers.net _ _12_b9baae0b",
+        "zieng2__ MegaMax Network _ _13_d77fd836",
         "zieng2__ ProCloud _ _14_47aa70df",
-        "zieng2__ ProCloud _ _15_f858a306",
-        "zieng2__ ProCloud _ _16_9a599335",
+        "zieng2__ ProCloud _ _15_a34f80ed",
+        "zieng2__ ProCloud _ _16_81408adf",
         "igareck_checked__ Italy _ _CIDR_ YA_64b21dbb",
         "igareck_checked__ Italy _ _CIDR_ YA_aef871e1",
         "igareck_checked__ Italy _ _CIDR_ YA_51122143",
@@ -1039,18 +1036,18 @@
         "igareck_checked__ Russia _ _ _ _CIDR_ VK_10ed795d",
         "igareck_checked__ Russia _ _ _ _CIDR_ VK_26c60138",
         "igareck_checked__ Anycast-IP _ _ _ _CIDR_ YA_0ba22822",
-        "avencores_26__V2CROSS.COM_9dad7f31",
-        "avencores_26__RU_5_1.5MB_s_fee32b35",
-        "avencores_26__RU_6_1.9MB_s_1a92084d",
-        "avencores_26__HU_1_1.7MB_s_2aa1e7b1",
-        "avencores_26_TW_speednode_0053_585789ba",
-        "avencores_26__ 16 _ Mor-02_ MTSRVRS_8238c28a",
-        "avencores_26__ 68 _ Mor-02_ MTSRVRS_392e1942",
-        "avencores_26__ 87 _ Mor-02_ MTSRVRS_383a1435",
-        "avencores_26__openproxylist.com_ vless-DE_ad10bcea",
-        "avencores_26__ PH _ 45.196.201.64_17cccb3b",
-        "avencores_26__ PH _ 45.196.201.98_8c7272b1",
-        "avencores_26__ CH _ 45.195.137.5_38809742"
+        "avencores_26__2026-07-24_c6251ca2",
+        "avencores_26_PH_https_a9a.xyz_1_4b8ee8ee",
+        "avencores_26_PH_https_a9a.xyz_2_30c7404b",
+        "avencores_26_NL_https_a9a.xyz_13_2cb33be8",
+        "avencores_26_PH_https_a9a.xyz_14_190673d3",
+        "avencores_26_PH_https_a9a.xyz_15_c4e474e0",
+        "avencores_26_PH_https_a9a.xyz_16_52bba604",
+        "avencores_26_PH_https_a9a.xyz_17_847149e0",
+        "avencores_26_RU_https_a9a.xyz_29_2a041209",
+        "avencores_26_PH_https_a9a.xyz_38_f09103ea",
+        "avencores_26__V2CROSS.COM_002d614d",
+        "avencores_26__RU_4_1.6MB_s_4b65b5da"
       ],
       "default": "auto",
       "interrupt_exist_connections": true
