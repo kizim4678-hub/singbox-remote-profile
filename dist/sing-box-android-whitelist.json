@@ -503,20 +503,6 @@
     },
     {
       "type": "vless",
-      "tag": "avencores_26_RU_https_a9a.xyz_17_853d7cba",
-      "server": "201.24.118.145",
-      "server_port": 4100,
-      "uuid": "bee21918-0933-430c-904b-c941b92256ba",
-      "transport": {
-        "type": "ws",
-        "path": "/v1",
-        "headers": {
-          "Host": "live.ok.ru"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "avencores_26__US_14_2.1MB_s_f830398f",
       "server": "77.110.115.8",
       "server_port": 25565,
@@ -745,6 +731,27 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "avencores_26__ UN _ 45.196.201.131_16078191",
+      "server": "45.196.201.131",
+      "server_port": 443,
+      "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "storage.yandex.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04",
+          "short_id": "c6ef72e4635d15a5"
+        }
+      }
+    },
+    {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
@@ -770,7 +777,6 @@
         "zieng2__ Beget _ _16_3a45db8b",
         "igareck_checked__ Germany _ _ _CIDR_ YA_e752059d",
         "igareck_checked__ Germany _ _ _CIDR_ YA_d3ac7bd7",
-        "avencores_26_RU_https_a9a.xyz_17_853d7cba",
         "avencores_26__US_14_2.1MB_s_f830398f",
         "avencores_26__RU_1_1.5MB_s_6483e1c8",
         "avencores_26__RU_2_1.2MB_s_f1b62576",
@@ -781,7 +787,8 @@
         "avencores_26__Vip_Security join us - 68_9718565c",
         "avencores_26__Vip_Security join us - 33_4bbbaa57",
         "avencores_26__ UN _ 45.195.137.5_da4e2337",
-        "avencores_26__ UN _ ch-gt-02.com_4996a9c8"
+        "avencores_26__ UN _ ch-gt-02.com_4996a9c8",
+        "avencores_26__ UN _ 45.196.201.131_16078191"
       ],
       "url": "https://cp.cloudflare.com",
       "interval": "5m",
@@ -816,7 +823,6 @@
         "zieng2__ Beget _ _16_3a45db8b",
         "igareck_checked__ Germany _ _ _CIDR_ YA_e752059d",
         "igareck_checked__ Germany _ _ _CIDR_ YA_d3ac7bd7",
-        "avencores_26_RU_https_a9a.xyz_17_853d7cba",
         "avencores_26__US_14_2.1MB_s_f830398f",
         "avencores_26__RU_1_1.5MB_s_6483e1c8",
         "avencores_26__RU_2_1.2MB_s_f1b62576",
@@ -827,7 +833,8 @@
         "avencores_26__Vip_Security join us - 68_9718565c",
         "avencores_26__Vip_Security join us - 33_4bbbaa57",
         "avencores_26__ UN _ 45.195.137.5_da4e2337",
-        "avencores_26__ UN _ ch-gt-02.com_4996a9c8"
+        "avencores_26__ UN _ ch-gt-02.com_4996a9c8",
+        "avencores_26__ UN _ 45.196.201.131_16078191"
       ],
       "default": "auto",
       "interrupt_exist_connections": true
