@@ -489,34 +489,6 @@
     },
     {
       "type": "vless",
-      "tag": "avencores_26__ 18 _ Mor-17_ MTSRVRS_21d7d4a5",
-      "server": "185.247.16.4",
-      "server_port": 4100,
-      "uuid": "a9f07ec1-bd8a-4c95-a281-3de7f0b76853",
-      "transport": {
-        "type": "ws",
-        "path": "/v1",
-        "headers": {
-          "Host": "live.ok.ru"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "avencores_26__ 74 _ Mor-17_ MTSRVRS_6feec428",
-      "server": "155.212.142.50",
-      "server_port": 2200,
-      "uuid": "9b44bfb4-9d28-4870-9fc3-5154d6d462ff",
-      "transport": {
-        "type": "ws",
-        "path": "/v1",
-        "headers": {
-          "Host": "rzd.ru"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "avencores_26__openproxylist.com_ vless-DE_22681d94",
       "server": "ns.o11111o.club",
       "server_port": 443,
@@ -724,6 +696,47 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "avencores_26__ ShatakVPN 711791_d9e350ab",
+      "server": "178.248.236.155",
+      "server_port": 18443,
+      "uuid": "c099de6a-0805-4052-b959-fd4ab4fc209e",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "rutube.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JScNgNDPXbQKa-5VKPNZAaC-RqQuvuf4uEEHbJWrVSc",
+          "short_id": "000443436f"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "avencores_26__ ShatakVPN 329249_96e1afc7",
+      "server": "46.182.24.163",
+      "server_port": 443,
+      "uuid": "002bcd34-ef85-4376-962a-400ea2209292",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "CF49-iS9dsHBwvqYFoDs_T3Me8TT0FpNW2kibGBkVXY"
+        }
+      }
+    },
+    {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
@@ -747,8 +760,6 @@
         "zieng2__ Aeza Group _ _14_b9333913",
         "zieng2__ Aeza Group _ _15_668b5e1a",
         "zieng2__ Aeza Group _ _16_36ed7421",
-        "avencores_26__ 18 _ Mor-17_ MTSRVRS_21d7d4a5",
-        "avencores_26__ 74 _ Mor-17_ MTSRVRS_6feec428",
         "avencores_26__openproxylist.com_ vless-DE_22681d94",
         "avencores_26__openproxylist.com_ vless-NL_957f56e9",
         "avencores_26__openproxylist.com_ vless-EE_856414e6",
@@ -758,7 +769,9 @@
         "avencores_26__ UN _ 45.195.137.5_da4e2337",
         "avencores_26__ UN _ ch-gt-02.com_4996a9c8",
         "avencores_26__ UN _ 45.196.201.131_16078191",
-        "avencores_26__ UN _ 45.90.32.132_58d085b2"
+        "avencores_26__ UN _ 45.90.32.132_58d085b2",
+        "avencores_26__ ShatakVPN 711791_d9e350ab",
+        "avencores_26__ ShatakVPN 329249_96e1afc7"
       ],
       "url": "https://cp.cloudflare.com",
       "interval": "5m",
@@ -791,8 +804,6 @@
         "zieng2__ Aeza Group _ _14_b9333913",
         "zieng2__ Aeza Group _ _15_668b5e1a",
         "zieng2__ Aeza Group _ _16_36ed7421",
-        "avencores_26__ 18 _ Mor-17_ MTSRVRS_21d7d4a5",
-        "avencores_26__ 74 _ Mor-17_ MTSRVRS_6feec428",
         "avencores_26__openproxylist.com_ vless-DE_22681d94",
         "avencores_26__openproxylist.com_ vless-NL_957f56e9",
         "avencores_26__openproxylist.com_ vless-EE_856414e6",
@@ -802,7 +813,9 @@
         "avencores_26__ UN _ 45.195.137.5_da4e2337",
         "avencores_26__ UN _ ch-gt-02.com_4996a9c8",
         "avencores_26__ UN _ 45.196.201.131_16078191",
-        "avencores_26__ UN _ 45.90.32.132_58d085b2"
+        "avencores_26__ UN _ 45.90.32.132_58d085b2",
+        "avencores_26__ ShatakVPN 711791_d9e350ab",
+        "avencores_26__ ShatakVPN 329249_96e1afc7"
       ],
       "default": "auto",
       "interrupt_exist_connections": true
