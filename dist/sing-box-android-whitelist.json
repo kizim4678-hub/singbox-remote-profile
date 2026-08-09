@@ -534,6 +534,47 @@
     },
     {
       "type": "vless",
+      "tag": "avencores_26__Vip_Security join us - 375_abc9159a",
+      "server": "85.234.100.49",
+      "server_port": 6443,
+      "uuid": "501b6afa-f955-473f-8440-1010110a1548",
+      "tls": {
+        "enabled": true,
+        "server_name": "max.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "UJASCPCy2vuNWu3q2C7vVte-HxG0r0XI83pgxBFBv1E",
+          "short_id": "9c56af76"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "avencores_26__Vip_Security join us - 374_7c40d7b3",
+      "server": "161.104.32.106",
+      "server_port": 8443,
+      "uuid": "501b6afa-f955-473f-8440-1010110a1548",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "api-maps.yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mBaiGOrxW7NFGpW7aZLztWiME6vulM0Nk1Uh0SxX4zc",
+          "short_id": "fa1a12cf"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "avencores_26__ UN _ 45.196.201.23_8a54ef91",
       "server": "45.196.201.23",
       "server_port": 443,
@@ -638,40 +679,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "avencores_26__Vip_Security join us - 403_d23510b6",
-      "server": "194.5.65.36",
-      "server_port": 443,
-      "uuid": "d49e6f64-2a62-4fc6-8dde-9ab1bdf12c02",
-      "tls": {
-        "enabled": true,
-        "server_name": "ya.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "v_s3GW5_7jvB081tdUeyoDUUTq6fZwqKbVS7CdvLFA0",
-          "short_id": "72cd47c079c0a3df"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "avencores_26__ ShatakVPN 742966_ba561366",
-      "server": "185.247.16.3",
-      "server_port": 2200,
-      "uuid": "155e8dd4-a559-407a-9ea8-13a5e829f066",
-      "transport": {
-        "type": "ws",
-        "path": "/v1",
-        "headers": {
-          "Host": "rzd.ru"
-        }
-      }
-    },
-    {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
@@ -700,13 +707,13 @@
         "avencores_26__openproxylist.com_ vless-NL_88db2ddc",
         "avencores_26__openproxylist.com_ vless-DE_c60f5e35",
         "avencores_26__openproxylist.com_ vless-RU_f7e60bf9",
+        "avencores_26__Vip_Security join us - 375_abc9159a",
+        "avencores_26__Vip_Security join us - 374_7c40d7b3",
         "avencores_26__ UN _ 45.196.201.23_8a54ef91",
         "avencores_26__ UN _ 45.195.137.5_da4e2337",
         "avencores_26__ UN _ ch-gt-02.com_4996a9c8",
         "avencores_26__ UN _ 45.196.201.131_16078191",
-        "avencores_26__ UN _ 45.196.201.46_bd8b20a2",
-        "avencores_26__Vip_Security join us - 403_d23510b6",
-        "avencores_26__ ShatakVPN 742966_ba561366"
+        "avencores_26__ UN _ 45.196.201.46_bd8b20a2"
       ],
       "url": "https://cp.cloudflare.com",
       "interval": "5m",
@@ -744,13 +751,13 @@
         "avencores_26__openproxylist.com_ vless-NL_88db2ddc",
         "avencores_26__openproxylist.com_ vless-DE_c60f5e35",
         "avencores_26__openproxylist.com_ vless-RU_f7e60bf9",
+        "avencores_26__Vip_Security join us - 375_abc9159a",
+        "avencores_26__Vip_Security join us - 374_7c40d7b3",
         "avencores_26__ UN _ 45.196.201.23_8a54ef91",
         "avencores_26__ UN _ 45.195.137.5_da4e2337",
         "avencores_26__ UN _ ch-gt-02.com_4996a9c8",
         "avencores_26__ UN _ 45.196.201.131_16078191",
-        "avencores_26__ UN _ 45.196.201.46_bd8b20a2",
-        "avencores_26__Vip_Security join us - 403_d23510b6",
-        "avencores_26__ ShatakVPN 742966_ba561366"
+        "avencores_26__ UN _ 45.196.201.46_bd8b20a2"
       ],
       "default": "auto",
       "interrupt_exist_connections": true
