@@ -143,10 +143,10 @@
     },
     {
       "type": "vless",
-      "tag": "zieng2__ VK _ _2_a845444f",
+      "tag": "zieng2__ VK _ _2_7f086e58",
       "server": "89.208.231.191",
       "server_port": 8443,
-      "uuid": "26b032a2-2d62-07d0-9db1-3c22b4b9c81d",
+      "uuid": "f4290134-9cf7-07d0-a692-b665137d25df",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -164,28 +164,7 @@
     },
     {
       "type": "vless",
-      "tag": "zieng2__ VK _ _3_6f88ba7f",
-      "server": "89.208.231.191",
-      "server_port": 8443,
-      "uuid": "26b032a2-2d62-1f40-9db1-3c22b4b9c81d",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "max.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik",
-          "short_id": "d8c6b58bcbb0c323"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "zieng2__ Yandex _ _4_ce496e0e",
+      "tag": "zieng2__ Yandex _ _3_aa861724",
       "server": "178.154.208.44",
       "server_port": 443,
       "uuid": "1a8aa3c0-7741-49dd-adbc-dcc629f6b938",
@@ -206,7 +185,7 @@
     },
     {
       "type": "vless",
-      "tag": "zieng2__ 4vps.su _ _5_44a13361",
+      "tag": "zieng2__ 4vps.su _ _4_dc3dc1fe",
       "server": "77.110.113.103",
       "server_port": 443,
       "uuid": "b17fa109-615f-4fcc-abee-8ac8358664e1",
@@ -227,10 +206,21 @@
     },
     {
       "type": "vless",
-      "tag": "zieng2__ Aeza Group _ _6_53190bfc",
+      "tag": "zieng2__ Aeza Group _ _5_8e7c05e5",
       "server": "82.117.87.199",
       "server_port": 4100,
       "uuid": "2a88091e-e3f8-4478-9751-6ce0557a7f2e",
+      "transport": {
+        "type": "ws",
+        "path": "/v1"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "zieng2__ Aeza Group _ _6_c12656cd",
+      "server": "45.146.131.97",
+      "server_port": 4100,
+      "uuid": "5502312d-b5cf-4652-8c59-4d670dd047be",
       "transport": {
         "type": "ws",
         "path": "/v1"
@@ -285,29 +275,7 @@
     },
     {
       "type": "vless",
-      "tag": "zieng2__ Beget _ _11_aba4fd4b",
-      "server": "168.222.140.155",
-      "server_port": 2200,
-      "uuid": "2aa7f4b1-e859-46d0-b8ac-8587811ab7b1",
-      "transport": {
-        "type": "ws",
-        "path": "/v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "zieng2__ Beget _ _12_d5ce29d7",
-      "server": "155.212.142.50",
-      "server_port": 4100,
-      "uuid": "2aa7f4b1-e859-46d0-b8ac-8587811ab7b1",
-      "transport": {
-        "type": "ws",
-        "path": "/v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "zieng2__ Beget _ _13_6e349344",
+      "tag": "zieng2__ Beget _ _11_fc650c1b",
       "server": "193.168.46.180",
       "server_port": 443,
       "uuid": "6016a73d-0d44-4040-a96d-9c7d111abe1d",
@@ -328,7 +296,7 @@
     },
     {
       "type": "vless",
-      "tag": "zieng2__ Beget _ _14_27a842eb",
+      "tag": "zieng2__ Beget _ _12_f8618eff",
       "server": "193.168.46.180",
       "server_port": 443,
       "uuid": "057b5847-f8a0-4c21-a82e-2c00b11242ec",
@@ -349,7 +317,7 @@
     },
     {
       "type": "vless",
-      "tag": "zieng2__ Beget _ _15_0397fe0b",
+      "tag": "zieng2__ Beget _ _13_982ecfeb",
       "server": "45.12.75.242",
       "server_port": 26424,
       "uuid": "633f424e-2b11-48da-a6b3-a849dd71456f",
@@ -369,7 +337,7 @@
     },
     {
       "type": "vless",
-      "tag": "zieng2__ Beget _ _16_727da844",
+      "tag": "zieng2__ Beget _ _14_6f88b0c5",
       "server": "193.168.46.180",
       "server_port": 443,
       "uuid": "253500bd-5829-4749-9814-09b12c0f6cab",
@@ -385,6 +353,87 @@
           "enabled": true,
           "public_key": "D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY",
           "short_id": "c1a7e9b4711d5f60"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "zieng2__ Beget _ _15_cb5259f0",
+      "server": "45.12.75.242",
+      "server_port": 26424,
+      "uuid": "633f424e-2b11-48da-a6b3-a849dd71456f",
+      "tls": {
+        "enabled": true,
+        "server_name": "ya.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
+          "short_id": "23103e1e"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "zieng2__ Beget _ _16_13911c32",
+      "server": "193.168.46.180",
+      "server_port": 443,
+      "uuid": "6f0ef3f0-76b4-434b-a01b-0191008dff08",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "rruu.persik.host",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY",
+          "short_id": "c1a7e9b4711d5f60"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "igareck_checked__ Lithuania _ _ _ _CIDR_ YA_ce8f419d",
+      "server": "158.160.5.231",
+      "server_port": 44443,
+      "uuid": "4de21bfe-2e26-45ec-8fb0-be864eeaade0",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "zHEJpG7OIMy1r1VHuhgWMJRa9okALRARYohcuJeXmjE",
+          "short_id": "b249b66ed868"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "igareck_checked__ Lithuania _ _ _ _CIDR_ YA_4375b1de",
+      "server": "158.160.5.231",
+      "server_port": 44443,
+      "uuid": "4de21bfe-2e26-45ec-8fb0-be864eeaade0",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "zHEJpG7OIMy1r1VHuhgWMJRa9okALRARYohcuJeXmjE",
+          "short_id": "b249b66ed868"
         }
       }
     },
@@ -616,24 +665,23 @@
     },
     {
       "type": "vless",
-      "tag": "avencores_26__ ShatakVPN 340441_0ba66b7f",
-      "server": "81.163.22.164",
-      "server_port": 443,
-      "uuid": "16e4fd01-4b66-4034-bb7b-0ef8fbf569cf",
+      "tag": "avencores_26__ ShatakVPN 872610_0e663452",
+      "server": "178.248.236.155",
+      "server_port": 18443,
+      "uuid": "c099de6a-0805-4052-b959-fd4ab4fc209e",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "max.ru",
+        "server_name": "rutube.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "nc5dunLF2knU5PkMbQlklbp_tZPfOx6xuHu4mkdYPBc"
+          "public_key": "JScNgNDPXbQKa-5VKPNZAaC-RqQuvuf4uEEHbJWrVSc",
+          "short_id": "000443436f"
         }
-      },
-      "transport": {
-        "type": "grpc"
       }
     },
     {
@@ -645,21 +693,23 @@
         "zieng2_https_github.com_zieng2_wl_8d4d89ca",
         "zieng2_https_t.me_zieng2_b255f050",
         "zieng2__ VK _ _1_35ab02cb",
-        "zieng2__ VK _ _2_a845444f",
-        "zieng2__ VK _ _3_6f88ba7f",
-        "zieng2__ Yandex _ _4_ce496e0e",
-        "zieng2__ 4vps.su _ _5_44a13361",
-        "zieng2__ Aeza Group _ _6_53190bfc",
+        "zieng2__ VK _ _2_7f086e58",
+        "zieng2__ Yandex _ _3_aa861724",
+        "zieng2__ 4vps.su _ _4_dc3dc1fe",
+        "zieng2__ Aeza Group _ _5_8e7c05e5",
+        "zieng2__ Aeza Group _ _6_c12656cd",
         "zieng2__ Aeza Group _ _7_66cf8813",
         "zieng2__ Beget _ _8_30afd04e",
         "zieng2__ Beget _ _9_0f0a7565",
         "zieng2__ Beget _ _10_77935304",
-        "zieng2__ Beget _ _11_aba4fd4b",
-        "zieng2__ Beget _ _12_d5ce29d7",
-        "zieng2__ Beget _ _13_6e349344",
-        "zieng2__ Beget _ _14_27a842eb",
-        "zieng2__ Beget _ _15_0397fe0b",
-        "zieng2__ Beget _ _16_727da844",
+        "zieng2__ Beget _ _11_fc650c1b",
+        "zieng2__ Beget _ _12_f8618eff",
+        "zieng2__ Beget _ _13_982ecfeb",
+        "zieng2__ Beget _ _14_6f88b0c5",
+        "zieng2__ Beget _ _15_cb5259f0",
+        "zieng2__ Beget _ _16_13911c32",
+        "igareck_checked__ Lithuania _ _ _ _CIDR_ YA_ce8f419d",
+        "igareck_checked__ Lithuania _ _ _ _CIDR_ YA_4375b1de",
         "avencores_26__openproxylist.com_ vless-US_24cf6710",
         "avencores_26__openproxylist.com_ vless-NL_82f2d587",
         "avencores_26__openproxylist.com_ vless-GB_d6f2a4d5",
@@ -671,7 +721,7 @@
         "avencores_26__ UN _ ch-gt-02.com_4996a9c8",
         "avencores_26__ UN _ 45.196.201.131_16078191",
         "avencores_26__ UN _ 45.196.201.46_bd8b20a2",
-        "avencores_26__ ShatakVPN 340441_0ba66b7f"
+        "avencores_26__ ShatakVPN 872610_0e663452"
       ],
       "url": "https://cp.cloudflare.com",
       "interval": "5m",
@@ -689,21 +739,23 @@
         "zieng2_https_github.com_zieng2_wl_8d4d89ca",
         "zieng2_https_t.me_zieng2_b255f050",
         "zieng2__ VK _ _1_35ab02cb",
-        "zieng2__ VK _ _2_a845444f",
-        "zieng2__ VK _ _3_6f88ba7f",
-        "zieng2__ Yandex _ _4_ce496e0e",
-        "zieng2__ 4vps.su _ _5_44a13361",
-        "zieng2__ Aeza Group _ _6_53190bfc",
+        "zieng2__ VK _ _2_7f086e58",
+        "zieng2__ Yandex _ _3_aa861724",
+        "zieng2__ 4vps.su _ _4_dc3dc1fe",
+        "zieng2__ Aeza Group _ _5_8e7c05e5",
+        "zieng2__ Aeza Group _ _6_c12656cd",
         "zieng2__ Aeza Group _ _7_66cf8813",
         "zieng2__ Beget _ _8_30afd04e",
         "zieng2__ Beget _ _9_0f0a7565",
         "zieng2__ Beget _ _10_77935304",
-        "zieng2__ Beget _ _11_aba4fd4b",
-        "zieng2__ Beget _ _12_d5ce29d7",
-        "zieng2__ Beget _ _13_6e349344",
-        "zieng2__ Beget _ _14_27a842eb",
-        "zieng2__ Beget _ _15_0397fe0b",
-        "zieng2__ Beget _ _16_727da844",
+        "zieng2__ Beget _ _11_fc650c1b",
+        "zieng2__ Beget _ _12_f8618eff",
+        "zieng2__ Beget _ _13_982ecfeb",
+        "zieng2__ Beget _ _14_6f88b0c5",
+        "zieng2__ Beget _ _15_cb5259f0",
+        "zieng2__ Beget _ _16_13911c32",
+        "igareck_checked__ Lithuania _ _ _ _CIDR_ YA_ce8f419d",
+        "igareck_checked__ Lithuania _ _ _ _CIDR_ YA_4375b1de",
         "avencores_26__openproxylist.com_ vless-US_24cf6710",
         "avencores_26__openproxylist.com_ vless-NL_82f2d587",
         "avencores_26__openproxylist.com_ vless-GB_d6f2a4d5",
@@ -715,7 +767,7 @@
         "avencores_26__ UN _ ch-gt-02.com_4996a9c8",
         "avencores_26__ UN _ 45.196.201.131_16078191",
         "avencores_26__ UN _ 45.196.201.46_bd8b20a2",
-        "avencores_26__ ShatakVPN 340441_0ba66b7f"
+        "avencores_26__ ShatakVPN 872610_0e663452"
       ],
       "default": "auto",
       "interrupt_exist_connections": true
