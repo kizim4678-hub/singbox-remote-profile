@@ -244,7 +244,7 @@
     },
     {
       "type": "vless",
-      "tag": "zieng2__ 4vps.su _ _7_0e88fcd9",
+      "tag": "zieng2__ 4vps.su _ _7_fd24bd8f",
       "server": "77.110.113.103",
       "server_port": 443,
       "uuid": "b17fa109-615f-4fcc-abee-8ac8358664e1",
@@ -287,18 +287,7 @@
     },
     {
       "type": "vless",
-      "tag": "zieng2__ Aeza Group _ _10_0dacd9fa",
-      "server": "82.117.87.199",
-      "server_port": 4100,
-      "uuid": "2a88091e-e3f8-4478-9751-6ce0557a7f2e",
-      "transport": {
-        "type": "ws",
-        "path": "/v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "zieng2__ Aeza Group _ _11_b5cf5162",
+      "tag": "zieng2__ Aeza Group _ _10_7528f92e",
       "server": "79.137.192.188",
       "server_port": 2200,
       "uuid": "106b0505-da24-4ae4-b22c-302ab814f6f4",
@@ -309,7 +298,7 @@
     },
     {
       "type": "vless",
-      "tag": "zieng2__ Beget _ _12_9d1829cb",
+      "tag": "zieng2__ Beget _ _11_455db89f",
       "server": "185.141.227.153",
       "server_port": 9001,
       "uuid": "2c634977-584e-4e1f-b501-1b70c77a6743",
@@ -319,6 +308,30 @@
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "short_id": "6ba85179e30d4fc2"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc-reality"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "zieng2__ Beget _ _12_653f03c1",
+      "server": "185.141.227.153",
+      "server_port": 9001,
+      "uuid": "2c634977-584e-4e1f-b501-1b70c77a6743",
+      "tls": {
+        "enabled": true,
+        "server_name": "api-maps.yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
         },
         "reality": {
           "enabled": true,
@@ -419,28 +432,7 @@
     },
     {
       "type": "vless",
-      "tag": "avencores_26__ 27 _ Mor-26_ MTSRVRS_46ccf890",
-      "server": "151.236.114.179",
-      "server_port": 2027,
-      "uuid": "851ed0d8-a37b-452d-8ef2-5b6c2d28a060",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "storage.yandex.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo",
-          "short_id": "8d3293f0066e129a"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "avencores_26__ 30 _ Mor-26_ MTSRVRS_c89f9ed7",
+      "tag": "avencores_26__ 16 _ Mor-26_ MTSRVRS_6afe5687",
       "server": "168.222.141.146",
       "server_port": 2200,
       "uuid": "bceda826-c83c-45d0-891e-15c4bfec76bc",
@@ -454,7 +446,7 @@
     },
     {
       "type": "vless",
-      "tag": "avencores_26__ 45 _ Mor-26_ MTSRVRS_79fd7fb1",
+      "tag": "avencores_26__ 33 _ Mor-26_ MTSRVRS_57a5a664",
       "server": "78.159.245.75",
       "server_port": 9002,
       "uuid": "2c634977-584e-4e1f-b501-1b70c77a6743",
@@ -473,6 +465,27 @@
       "transport": {
         "type": "grpc",
         "service_name": "grpc-reality"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "avencores_26__ 43 _ Mor-26_ MTSRVRS_7f0a56ac",
+      "server": "151.236.114.179",
+      "server_port": 2027,
+      "uuid": "851ed0d8-a37b-452d-8ef2-5b6c2d28a060",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "storage.yandex.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo",
+          "short_id": "8d3293f0066e129a"
+        }
       }
     },
     {
@@ -644,21 +657,21 @@
         "zieng2__ Yandex _ _4_ad998337",
         "zieng2__ Yandex _ _5_cbb74efa",
         "zieng2__ Yandex _ _6_bd200fb1",
-        "zieng2__ 4vps.su _ _7_0e88fcd9",
+        "zieng2__ 4vps.su _ _7_fd24bd8f",
         "zieng2__ Aeza Group _ _8_36d4a653",
         "zieng2__ Aeza Group _ _9_ff26d3c8",
-        "zieng2__ Aeza Group _ _10_0dacd9fa",
-        "zieng2__ Aeza Group _ _11_b5cf5162",
-        "zieng2__ Beget _ _12_9d1829cb",
+        "zieng2__ Aeza Group _ _10_7528f92e",
+        "zieng2__ Beget _ _11_455db89f",
+        "zieng2__ Beget _ _12_653f03c1",
         "zieng2__ Beget _ _13_aebff71e",
         "zieng2__ Beget _ _14_c77fbbff",
         "zieng2__ Beget _ _15_c8e29dba",
         "zieng2__ Beget _ _16_1e68bc41",
         "igareck_checked__ Germany _CIDR_ Beeline_49ce14f1",
         "igareck_checked__ Germany _CIDR_ Beeline_1277cd0e",
-        "avencores_26__ 27 _ Mor-26_ MTSRVRS_46ccf890",
-        "avencores_26__ 30 _ Mor-26_ MTSRVRS_c89f9ed7",
-        "avencores_26__ 45 _ Mor-26_ MTSRVRS_79fd7fb1",
+        "avencores_26__ 16 _ Mor-26_ MTSRVRS_6afe5687",
+        "avencores_26__ 33 _ Mor-26_ MTSRVRS_57a5a664",
+        "avencores_26__ 43 _ Mor-26_ MTSRVRS_7f0a56ac",
         "avencores_26__openproxylist.com_ vless-RU_1fde11b1",
         "avencores_26__openproxylist.com_ vless-NL_82f2d587",
         "avencores_26_CZ_https_a9a.xyz_6_93514ad4",
@@ -690,21 +703,21 @@
         "zieng2__ Yandex _ _4_ad998337",
         "zieng2__ Yandex _ _5_cbb74efa",
         "zieng2__ Yandex _ _6_bd200fb1",
-        "zieng2__ 4vps.su _ _7_0e88fcd9",
+        "zieng2__ 4vps.su _ _7_fd24bd8f",
         "zieng2__ Aeza Group _ _8_36d4a653",
         "zieng2__ Aeza Group _ _9_ff26d3c8",
-        "zieng2__ Aeza Group _ _10_0dacd9fa",
-        "zieng2__ Aeza Group _ _11_b5cf5162",
-        "zieng2__ Beget _ _12_9d1829cb",
+        "zieng2__ Aeza Group _ _10_7528f92e",
+        "zieng2__ Beget _ _11_455db89f",
+        "zieng2__ Beget _ _12_653f03c1",
         "zieng2__ Beget _ _13_aebff71e",
         "zieng2__ Beget _ _14_c77fbbff",
         "zieng2__ Beget _ _15_c8e29dba",
         "zieng2__ Beget _ _16_1e68bc41",
         "igareck_checked__ Germany _CIDR_ Beeline_49ce14f1",
         "igareck_checked__ Germany _CIDR_ Beeline_1277cd0e",
-        "avencores_26__ 27 _ Mor-26_ MTSRVRS_46ccf890",
-        "avencores_26__ 30 _ Mor-26_ MTSRVRS_c89f9ed7",
-        "avencores_26__ 45 _ Mor-26_ MTSRVRS_79fd7fb1",
+        "avencores_26__ 16 _ Mor-26_ MTSRVRS_6afe5687",
+        "avencores_26__ 33 _ Mor-26_ MTSRVRS_57a5a664",
+        "avencores_26__ 43 _ Mor-26_ MTSRVRS_7f0a56ac",
         "avencores_26__openproxylist.com_ vless-RU_1fde11b1",
         "avencores_26__openproxylist.com_ vless-NL_82f2d587",
         "avencores_26_CZ_https_a9a.xyz_6_93514ad4",
