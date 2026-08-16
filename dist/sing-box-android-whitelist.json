@@ -450,6 +450,72 @@
     },
     {
       "type": "vless",
+      "tag": "avencores_26__openproxylist.com_ vless-DE_7f8ef8f8",
+      "server": "193.188.23.170",
+      "server_port": 2200,
+      "uuid": "b3d66abd-ea82-4616-92f0-1dec8d1e4cfc"
+    },
+    {
+      "type": "vless",
+      "tag": "avencores_26__openproxylist.com_ vless-_838a714d",
+      "server": "104.171.133.161",
+      "server_port": 4100,
+      "uuid": "155e8dd4-a559-407a-9ea8-13a5e829f066",
+      "transport": {
+        "type": "ws",
+        "path": "/v1",
+        "headers": {
+          "Host": "live.ok.ru"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "avencores_26__openproxylist.com_ vless-RU_1fde11b1",
+      "server": "45.84.1.247",
+      "server_port": 8443,
+      "uuid": "ad17ed00-5bb6-4fa4-8be1-a545a9fbda6e",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "rbc.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "E_hcnZ6IvHDD2IFy8UGRvwWXHSqRrF--Ply0hJXSd30",
+          "short_id": "849cac6150823b"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "avencores_26__openproxylist.com_ vless-US_24cf6710",
+      "server": "77.110.115.8",
+      "server_port": 25565,
+      "uuid": "086422b2-3347-45f8-b527-d9e1be25dc56",
+      "tls": {
+        "enabled": true,
+        "server_name": "yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pBd5IOD_sCDpIDqgi6EtZ6DAAMGns9n2C3qPH0i3Tno",
+          "short_id": "52"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "UpdateService"
+      }
+    },
+    {
+      "type": "vless",
       "tag": "avencores_26_CZ_https_a9a.xyz_6_93514ad4",
       "server": "78.159.247.253",
       "server_port": 2027,
@@ -524,48 +590,6 @@
     },
     {
       "type": "vless",
-      "tag": "avencores_26__openproxylist.com_ vless-DE_7f8ef8f8",
-      "server": "193.188.23.170",
-      "server_port": 2200,
-      "uuid": "b3d66abd-ea82-4616-92f0-1dec8d1e4cfc"
-    },
-    {
-      "type": "vless",
-      "tag": "avencores_26__openproxylist.com_ vless-_838a714d",
-      "server": "104.171.133.161",
-      "server_port": 4100,
-      "uuid": "155e8dd4-a559-407a-9ea8-13a5e829f066",
-      "transport": {
-        "type": "ws",
-        "path": "/v1",
-        "headers": {
-          "Host": "live.ok.ru"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "avencores_26__openproxylist.com_ vless-_00ce0d30",
-      "server": "45.84.1.247",
-      "server_port": 8443,
-      "uuid": "ad17ed00-5bb6-4fa4-8be1-a545a9fbda6e",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "rbc.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "E_hcnZ6IvHDD2IFy8UGRvwWXHSqRrF--Ply0hJXSd30",
-          "short_id": "849cac6150823b"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "avencores_26__ JP _ 195.78.48.167_6389576d",
       "server": "195.78.48.167",
       "server_port": 8453,
@@ -589,20 +613,6 @@
           "yastatic.net"
         ],
         "path": "/s3/home-static/_/nova/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "avencores_26__ RU _ 201.24.118.145_56c436fc",
-      "server": "201.24.118.145",
-      "server_port": 4100,
-      "uuid": "bee21918-0933-430c-904b-c941b92256ba",
-      "transport": {
-        "type": "ws",
-        "path": "/v1",
-        "headers": {
-          "Host": "live.ok.ru"
-        }
       }
     },
     {
@@ -632,16 +642,16 @@
         "igareck_checked__ Germany _CIDR_ Beeline_08976085",
         "avencores_26__ 5 _ Mor-25_ MTSRVRS_eff40c6d",
         "avencores_26__ 14 _ Mor-25_ MTSRVRS_9ddd3b16",
+        "avencores_26__openproxylist.com_ vless-DE_7f8ef8f8",
+        "avencores_26__openproxylist.com_ vless-_838a714d",
+        "avencores_26__openproxylist.com_ vless-RU_1fde11b1",
+        "avencores_26__openproxylist.com_ vless-US_24cf6710",
         "avencores_26_CZ_https_a9a.xyz_6_93514ad4",
         "avencores_26_RU_https_a9a.xyz_32_5ae359c1",
         "avencores_26_SC_https_a9a.xyz_36_1c0134c0",
         "avencores_26_MU_speednode_0015_4bcce25a",
         "avencores_26_US_speednode_0117_4d5dead4",
-        "avencores_26__openproxylist.com_ vless-DE_7f8ef8f8",
-        "avencores_26__openproxylist.com_ vless-_838a714d",
-        "avencores_26__openproxylist.com_ vless-_00ce0d30",
-        "avencores_26__ JP _ 195.78.48.167_6389576d",
-        "avencores_26__ RU _ 201.24.118.145_56c436fc"
+        "avencores_26__ JP _ 195.78.48.167_6389576d"
       ],
       "url": "https://cp.cloudflare.com",
       "interval": "5m",
@@ -677,16 +687,16 @@
         "igareck_checked__ Germany _CIDR_ Beeline_08976085",
         "avencores_26__ 5 _ Mor-25_ MTSRVRS_eff40c6d",
         "avencores_26__ 14 _ Mor-25_ MTSRVRS_9ddd3b16",
+        "avencores_26__openproxylist.com_ vless-DE_7f8ef8f8",
+        "avencores_26__openproxylist.com_ vless-_838a714d",
+        "avencores_26__openproxylist.com_ vless-RU_1fde11b1",
+        "avencores_26__openproxylist.com_ vless-US_24cf6710",
         "avencores_26_CZ_https_a9a.xyz_6_93514ad4",
         "avencores_26_RU_https_a9a.xyz_32_5ae359c1",
         "avencores_26_SC_https_a9a.xyz_36_1c0134c0",
         "avencores_26_MU_speednode_0015_4bcce25a",
         "avencores_26_US_speednode_0117_4d5dead4",
-        "avencores_26__openproxylist.com_ vless-DE_7f8ef8f8",
-        "avencores_26__openproxylist.com_ vless-_838a714d",
-        "avencores_26__openproxylist.com_ vless-_00ce0d30",
-        "avencores_26__ JP _ 195.78.48.167_6389576d",
-        "avencores_26__ RU _ 201.24.118.145_56c436fc"
+        "avencores_26__ JP _ 195.78.48.167_6389576d"
       ],
       "default": "auto",
       "interrupt_exist_connections": true
