@@ -372,7 +372,30 @@
     },
     {
       "type": "vless",
-      "tag": "avencores_26__ 17 _ Mor-25_ MTSRVRS_b70de6cc",
+      "tag": "avencores_26__ 2 _ Mor-25_ MTSRVRS_e54cfc06",
+      "server": "78.159.245.75",
+      "server_port": 9002,
+      "uuid": "2c634977-584e-4e1f-b501-1b70c77a6743",
+      "tls": {
+        "enabled": true,
+        "server_name": "api-maps.yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc-reality"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "avencores_26__ 22 _ Mor-25_ MTSRVRS_ffd43013",
       "server": "151.236.114.179",
       "server_port": 2027,
       "uuid": "851ed0d8-a37b-452d-8ef2-5b6c2d28a060",
@@ -393,25 +416,16 @@
     },
     {
       "type": "vless",
-      "tag": "avencores_26__ 55 _ Mor-25_ MTSRVRS_89b0b1c3",
-      "server": "78.159.245.75",
-      "server_port": 9002,
-      "uuid": "2c634977-584e-4e1f-b501-1b70c77a6743",
-      "tls": {
-        "enabled": true,
-        "server_name": "api-maps.yandex.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-        }
-      },
+      "tag": "avencores_26__ 30 _ Mor-25_ MTSRVRS_7ffb5d84",
+      "server": "168.222.141.146",
+      "server_port": 2200,
+      "uuid": "bceda826-c83c-45d0-891e-15c4bfec76bc",
       "transport": {
-        "type": "grpc",
-        "service_name": "grpc-reality"
+        "type": "ws",
+        "path": "/v1",
+        "headers": {
+          "Host": "rzd.ru"
+        }
       }
     },
     {
@@ -447,30 +461,6 @@
           "public_key": "E_hcnZ6IvHDD2IFy8UGRvwWXHSqRrF--Ply0hJXSd30",
           "short_id": "849cac6150823b"
         }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "avencores_26__openproxylist.com_ vless-US_24cf6710",
-      "server": "77.110.115.8",
-      "server_port": 25565,
-      "uuid": "086422b2-3347-45f8-b527-d9e1be25dc56",
-      "tls": {
-        "enabled": true,
-        "server_name": "yandex.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "pBd5IOD_sCDpIDqgi6EtZ6DAAMGns9n2C3qPH0i3Tno",
-          "short_id": "52"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "UpdateService"
       }
     },
     {
@@ -622,11 +612,11 @@
         "zieng2__ Beget _ _14_e6d0c774",
         "zieng2__ Beget _ _15_0397fe0b",
         "zieng2__ Beget _ _16_bbdb27fc",
-        "avencores_26__ 17 _ Mor-25_ MTSRVRS_b70de6cc",
-        "avencores_26__ 55 _ Mor-25_ MTSRVRS_89b0b1c3",
+        "avencores_26__ 2 _ Mor-25_ MTSRVRS_e54cfc06",
+        "avencores_26__ 22 _ Mor-25_ MTSRVRS_ffd43013",
+        "avencores_26__ 30 _ Mor-25_ MTSRVRS_7ffb5d84",
         "avencores_26__openproxylist.com_ vless-_838a714d",
         "avencores_26__openproxylist.com_ vless-RU_1fde11b1",
-        "avencores_26__openproxylist.com_ vless-US_24cf6710",
         "avencores_26__openproxylist.com_ vless-NL_82f2d587",
         "avencores_26_CZ_https_a9a.xyz_6_93514ad4",
         "avencores_26_RU_https_a9a.xyz_32_5ae359c1",
@@ -666,11 +656,11 @@
         "zieng2__ Beget _ _14_e6d0c774",
         "zieng2__ Beget _ _15_0397fe0b",
         "zieng2__ Beget _ _16_bbdb27fc",
-        "avencores_26__ 17 _ Mor-25_ MTSRVRS_b70de6cc",
-        "avencores_26__ 55 _ Mor-25_ MTSRVRS_89b0b1c3",
+        "avencores_26__ 2 _ Mor-25_ MTSRVRS_e54cfc06",
+        "avencores_26__ 22 _ Mor-25_ MTSRVRS_ffd43013",
+        "avencores_26__ 30 _ Mor-25_ MTSRVRS_7ffb5d84",
         "avencores_26__openproxylist.com_ vless-_838a714d",
         "avencores_26__openproxylist.com_ vless-RU_1fde11b1",
-        "avencores_26__openproxylist.com_ vless-US_24cf6710",
         "avencores_26__openproxylist.com_ vless-NL_82f2d587",
         "avencores_26_CZ_https_a9a.xyz_6_93514ad4",
         "avencores_26_RU_https_a9a.xyz_32_5ae359c1",
