@@ -477,6 +477,30 @@
     },
     {
       "type": "vless",
+      "tag": "avencores_26__openproxylist.com_ vless-NL_f238998f",
+      "server": "185.141.227.153",
+      "server_port": 9002,
+      "uuid": "2c634977-584e-4e1f-b501-1b70c77a6743",
+      "tls": {
+        "enabled": true,
+        "server_name": "api-maps.yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "short_id": "6ba85179e30d4fc2"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc-reality"
+      }
+    },
+    {
+      "type": "vless",
       "tag": "avencores_26__openproxylist.com_ vless-DE_f118c6da",
       "server": "de2.techdatacloud.org",
       "server_port": 443,
@@ -714,22 +738,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "avencores_26_MU_speednode_0015_4bcce25a",
-      "server": "45.195.228.26",
-      "server_port": 443,
-      "uuid": "d2042070-c247-4226-a3ac-15337923e00d",
-      "flow": "xtls-rprx-vision-udp443",
-      "tls": {
-        "enabled": true,
-        "server_name": "storage.yandex.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
@@ -758,6 +766,7 @@
         "igareck_checked__ Russia _ _ _ _CIDR_ Beeline_ea116f18",
         "igareck_checked__ Russia _ _ _ _CIDR_ Beeline_ece96fb6",
         "igareck_checked__ Russia _ _ _ _CIDR_ Beeline_fdfcc4da",
+        "avencores_26__openproxylist.com_ vless-NL_f238998f",
         "avencores_26__openproxylist.com_ vless-DE_f118c6da",
         "avencores_26__openproxylist.com_ vless-DE_c61269a3",
         "avencores_26__openproxylist.com_ vless-NL_af8954d9",
@@ -768,8 +777,7 @@
         "avencores_26__openproxylist.com_ vless-RU_a4632b29",
         "avencores_26__openproxylist.com_ vless-RU_8dc0390e",
         "avencores_26__openproxylist.com_ vless-GB_13637846",
-        "avencores_26_CZ_https_a9a.xyz_5_3550ce37",
-        "avencores_26_MU_speednode_0015_4bcce25a"
+        "avencores_26_CZ_https_a9a.xyz_5_3550ce37"
       ],
       "url": "https://cp.cloudflare.com",
       "interval": "5m",
@@ -807,6 +815,7 @@
         "igareck_checked__ Russia _ _ _ _CIDR_ Beeline_ea116f18",
         "igareck_checked__ Russia _ _ _ _CIDR_ Beeline_ece96fb6",
         "igareck_checked__ Russia _ _ _ _CIDR_ Beeline_fdfcc4da",
+        "avencores_26__openproxylist.com_ vless-NL_f238998f",
         "avencores_26__openproxylist.com_ vless-DE_f118c6da",
         "avencores_26__openproxylist.com_ vless-DE_c61269a3",
         "avencores_26__openproxylist.com_ vless-NL_af8954d9",
@@ -817,8 +826,7 @@
         "avencores_26__openproxylist.com_ vless-RU_a4632b29",
         "avencores_26__openproxylist.com_ vless-RU_8dc0390e",
         "avencores_26__openproxylist.com_ vless-GB_13637846",
-        "avencores_26_CZ_https_a9a.xyz_5_3550ce37",
-        "avencores_26_MU_speednode_0015_4bcce25a"
+        "avencores_26_CZ_https_a9a.xyz_5_3550ce37"
       ],
       "default": "auto",
       "interrupt_exist_connections": true
