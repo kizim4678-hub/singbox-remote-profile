@@ -522,7 +522,7 @@
     },
     {
       "type": "vless",
-      "tag": "avencores_26__ 12 _ Mor-28_ MTSRVRS_6ab711a6",
+      "tag": "avencores_26__ 10 _ Mor-28_ MTSRVRS_2c0fc7e2",
       "server": "45.195.228.198",
       "server_port": 443,
       "uuid": "d5b44b89-ca73-4b82-a494-a72054c31df3",
@@ -538,6 +538,27 @@
           "enabled": true,
           "public_key": "66-fz0xjwauydj29EfFKyPHjJ2CIGaGSsJ6hsB--zAc",
           "short_id": "de8d3223e7d85761"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "avencores_26__openproxylist.com_ vless-NL_81f8d10e",
+      "server": "144.31.134.196",
+      "server_port": 443,
+      "uuid": "7b8a65b9-e074-4dcf-ab4f-5ffb5197d974",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "dzen.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "twXgIi2sFEo2xqWtEwVi1gmD4XRBBjuJHWh4AzOs-TA",
+          "short_id": "abcd1234"
         }
       }
     },
@@ -748,20 +769,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "avencores_26__ ShatakVPN 721167_5dfce2f5",
-      "server": "85.92.111.38",
-      "server_port": 4100,
-      "uuid": "0c4f46c2-afb7-4a80-8f6e-10258d80333e",
-      "transport": {
-        "type": "ws",
-        "path": "/v1",
-        "headers": {
-          "Host": "live.ok.ru"
-        }
-      }
-    },
-    {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
@@ -790,7 +797,8 @@
         "igareck_checked__ Lithuania _ _CIDR_ VK_a7561099",
         "igareck_checked__ Lithuania _ _CIDR_ VK_da7c9a1b",
         "igareck_checked__ Lithuania _ _CIDR_ VK_79082c2b",
-        "avencores_26__ 12 _ Mor-28_ MTSRVRS_6ab711a6",
+        "avencores_26__ 10 _ Mor-28_ MTSRVRS_2c0fc7e2",
+        "avencores_26__openproxylist.com_ vless-NL_81f8d10e",
         "avencores_26__openproxylist.com_ vless-RU_a4632b29",
         "avencores_26__openproxylist.com_ vless-NL_13de61bb",
         "avencores_26__openproxylist.com_ vless-RU_8dc0390e",
@@ -800,8 +808,7 @@
         "avencores_26__ CH _ 45.195.137.5_38809742",
         "avencores_26__ CH _ 45.195.137.48_3eab2019",
         "avencores_26__ FR _ 45.196.201.131_680f1507",
-        "avencores_26__ ShatakVPN 451776_e883bc46",
-        "avencores_26__ ShatakVPN 721167_5dfce2f5"
+        "avencores_26__ ShatakVPN 451776_e883bc46"
       ],
       "url": "https://cp.cloudflare.com",
       "interval": "5m",
@@ -839,7 +846,8 @@
         "igareck_checked__ Lithuania _ _CIDR_ VK_a7561099",
         "igareck_checked__ Lithuania _ _CIDR_ VK_da7c9a1b",
         "igareck_checked__ Lithuania _ _CIDR_ VK_79082c2b",
-        "avencores_26__ 12 _ Mor-28_ MTSRVRS_6ab711a6",
+        "avencores_26__ 10 _ Mor-28_ MTSRVRS_2c0fc7e2",
+        "avencores_26__openproxylist.com_ vless-NL_81f8d10e",
         "avencores_26__openproxylist.com_ vless-RU_a4632b29",
         "avencores_26__openproxylist.com_ vless-NL_13de61bb",
         "avencores_26__openproxylist.com_ vless-RU_8dc0390e",
@@ -849,8 +857,7 @@
         "avencores_26__ CH _ 45.195.137.5_38809742",
         "avencores_26__ CH _ 45.195.137.48_3eab2019",
         "avencores_26__ FR _ 45.196.201.131_680f1507",
-        "avencores_26__ ShatakVPN 451776_e883bc46",
-        "avencores_26__ ShatakVPN 721167_5dfce2f5"
+        "avencores_26__ ShatakVPN 451776_e883bc46"
       ],
       "default": "auto",
       "interrupt_exist_connections": true
