@@ -836,28 +836,7 @@
     },
     {
       "type": "vless",
-      "tag": "avencores_26__ 19 _ Sha-01_ MTSRVRS_717ef4b2",
-      "server": "hu10.levikogjgfdd.ir",
-      "server_port": 443,
-      "uuid": "66824c94-7ba9-4113-908e-bd793f296852",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "storage.yandex.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg",
-          "short_id": "2715592069f36fe7"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "avencores_26__ 34 _ Sha-01_ MTSRVRS_e09b84b7",
+      "tag": "avencores_26__ 60 _ Sha-01_ MTSRVRS_427732c0",
       "server": "45.195.111.108",
       "server_port": 443,
       "uuid": "66824c94-7ba9-4113-908e-bd793f296852",
@@ -1063,23 +1042,40 @@
     },
     {
       "type": "vless",
-      "tag": "avencores_26__ ShatakVPN 267379_b36656ff",
-      "server": "154.222.9.228",
+      "tag": "avencores_26__ ShatakVPN 295096_57982771",
+      "server": "141.8.199.212",
+      "server_port": 4100,
+      "uuid": "fc72e947-b8dd-4de0-9ec7-2b0050c9f83a",
+      "transport": {
+        "type": "ws",
+        "path": "/v1",
+        "headers": {
+          "Host": "live.ok.ru"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "avencores_26__ ShatakVPN 850815_625c0aae",
+      "server": "31.129.42.239",
       "server_port": 443,
-      "uuid": "457ebbd7-2059-4288-b7dd-dd3b7628bf45",
-      "flow": "xtls-rprx-vision",
+      "uuid": "97e967da-1d2b-439e-836b-a9d5a90496dc",
       "tls": {
         "enabled": true,
-        "server_name": "storage.yandex.net",
+        "server_name": "vk.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo",
-          "short_id": "5be97fb85093a3a9"
+          "public_key": "KwPeoAnP208rOsWWHSjhPKdpVzvIHpfBUltBHaBCSDs",
+          "short_id": "d9114354"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc8c948083b439"
       }
     },
     {
@@ -1126,8 +1122,7 @@
         "igareck_checked__ Anycast-IP _ _ _ _ _CIDR_ VK_031626df",
         "igareck_checked__ Anycast-IP _ _ _ _ _CIDR_ VK_edb5081f",
         "igareck_checked__ Anycast-IP _ _ _ _ _CIDR_ VK_c39e4c6d",
-        "avencores_26__ 19 _ Sha-01_ MTSRVRS_717ef4b2",
-        "avencores_26__ 34 _ Sha-01_ MTSRVRS_e09b84b7",
+        "avencores_26__ 60 _ Sha-01_ MTSRVRS_427732c0",
         "avencores_26__openproxylist.com_ vless-US_dd340844",
         "avencores_26__openproxylist.com_ vless-NL_a90aca27",
         "avencores_26__openproxylist.com_ vless-KZ_b9e3dfca",
@@ -1137,7 +1132,8 @@
         "avencores_26__ CH _ 45.195.137.48_3eab2019",
         "avencores_26__ DE _ 154.222.9.98_4557f8ec",
         "avencores_26__ FR _ 45.196.201.131_680f1507",
-        "avencores_26__ ShatakVPN 267379_b36656ff"
+        "avencores_26__ ShatakVPN 295096_57982771",
+        "avencores_26__ ShatakVPN 850815_625c0aae"
       ],
       "url": "https://cp.cloudflare.com",
       "interval": "5m",
@@ -1190,8 +1186,7 @@
         "igareck_checked__ Anycast-IP _ _ _ _ _CIDR_ VK_031626df",
         "igareck_checked__ Anycast-IP _ _ _ _ _CIDR_ VK_edb5081f",
         "igareck_checked__ Anycast-IP _ _ _ _ _CIDR_ VK_c39e4c6d",
-        "avencores_26__ 19 _ Sha-01_ MTSRVRS_717ef4b2",
-        "avencores_26__ 34 _ Sha-01_ MTSRVRS_e09b84b7",
+        "avencores_26__ 60 _ Sha-01_ MTSRVRS_427732c0",
         "avencores_26__openproxylist.com_ vless-US_dd340844",
         "avencores_26__openproxylist.com_ vless-NL_a90aca27",
         "avencores_26__openproxylist.com_ vless-KZ_b9e3dfca",
@@ -1201,7 +1196,8 @@
         "avencores_26__ CH _ 45.195.137.48_3eab2019",
         "avencores_26__ DE _ 154.222.9.98_4557f8ec",
         "avencores_26__ FR _ 45.196.201.131_680f1507",
-        "avencores_26__ ShatakVPN 267379_b36656ff"
+        "avencores_26__ ShatakVPN 295096_57982771",
+        "avencores_26__ ShatakVPN 850815_625c0aae"
       ],
       "default": "auto",
       "interrupt_exist_connections": true
