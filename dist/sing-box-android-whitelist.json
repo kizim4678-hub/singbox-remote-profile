@@ -869,27 +869,6 @@
     },
     {
       "type": "vless",
-      "tag": "avencores_26__Vip_Security join us - 22_bf3d8e58",
-      "server": "185.207.66.30",
-      "server_port": 443,
-      "uuid": "663836b2-f676-43fb-977f-47c495b1b383",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "st.ozone.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "6J829WZ6hhEtCmz8CfBBBP69ikMDlYPF2Lumyel6XTI",
-          "short_id": "d484643ca8396614"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "avencores_26__ BR _ 201.24.49.74_0fb672c5",
       "server": "201.24.49.74",
       "server_port": 2200,
@@ -920,30 +899,6 @@
     },
     {
       "type": "vless",
-      "tag": "avencores_26__ NL _ 185.141.227.153_2cdde405",
-      "server": "185.141.227.153",
-      "server_port": 9001,
-      "uuid": "2c634977-584e-4e1f-b501-1b70c77a6743",
-      "tls": {
-        "enabled": true,
-        "server_name": "api-maps.yandex.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-          "short_id": "6ba85179e30d4fc2"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "grpc-reality"
-      }
-    },
-    {
-      "type": "vless",
       "tag": "avencores_26__ RU _ 45.90.32.132_d866ba5a",
       "server": "45.90.32.132",
       "server_port": 2200,
@@ -953,6 +908,48 @@
         "path": "/v1",
         "headers": {
           "Host": "rzd.ru"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "avencores_26__ CH _ 45.195.137.5_38809742",
+      "server": "45.195.137.5",
+      "server_port": 8443,
+      "uuid": "06bcd513-ef0b-4c0c-a03b-e25fcda66fe2",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "storage.yandex.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY",
+          "short_id": "40ce08cf20c67003"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "avencores_26__ CH _ 45.195.137.48_3eab2019",
+      "server": "ch-gt-02.com",
+      "server_port": 8443,
+      "uuid": "06bcd513-ef0b-4c0c-a03b-e25fcda66fe2",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "storage.yandex.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY",
+          "short_id": "40ce08cf20c67003"
         }
       }
     },
@@ -1002,11 +999,11 @@
         "avencores_26__openproxylist.com_ vless-RU_4f1e9ed6",
         "avencores_26__openproxylist.com_ vless-NL_a90aca27",
         "avencores_26__openproxylist.com_ vless-DE_7b08f3bb",
-        "avencores_26__Vip_Security join us - 22_bf3d8e58",
         "avencores_26__ BR _ 201.24.49.74_0fb672c5",
         "avencores_26__ FR _ 88.218.196.178_8d9b58bd",
-        "avencores_26__ NL _ 185.141.227.153_2cdde405",
-        "avencores_26__ RU _ 45.90.32.132_d866ba5a"
+        "avencores_26__ RU _ 45.90.32.132_d866ba5a",
+        "avencores_26__ CH _ 45.195.137.5_38809742",
+        "avencores_26__ CH _ 45.195.137.48_3eab2019"
       ],
       "url": "https://cp.cloudflare.com",
       "interval": "5m",
@@ -1061,11 +1058,11 @@
         "avencores_26__openproxylist.com_ vless-RU_4f1e9ed6",
         "avencores_26__openproxylist.com_ vless-NL_a90aca27",
         "avencores_26__openproxylist.com_ vless-DE_7b08f3bb",
-        "avencores_26__Vip_Security join us - 22_bf3d8e58",
         "avencores_26__ BR _ 201.24.49.74_0fb672c5",
         "avencores_26__ FR _ 88.218.196.178_8d9b58bd",
-        "avencores_26__ NL _ 185.141.227.153_2cdde405",
-        "avencores_26__ RU _ 45.90.32.132_d866ba5a"
+        "avencores_26__ RU _ 45.90.32.132_d866ba5a",
+        "avencores_26__ CH _ 45.195.137.5_38809742",
+        "avencores_26__ CH _ 45.195.137.48_3eab2019"
       ],
       "default": "auto",
       "interrupt_exist_connections": true
