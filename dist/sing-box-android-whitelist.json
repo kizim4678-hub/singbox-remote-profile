@@ -600,7 +600,7 @@
     },
     {
       "type": "vless",
-      "tag": "avencores_26__ 43 _ Sha-01_ MTSRVRS_c8223818",
+      "tag": "avencores_26__ 2 _ Sha-01_ MTSRVRS_1f3f1ba7",
       "server": "45.195.111.108",
       "server_port": 443,
       "uuid": "66824c94-7ba9-4113-908e-bd793f296852",
@@ -621,7 +621,7 @@
     },
     {
       "type": "vless",
-      "tag": "avencores_26__ 47 _ Sha-01_ MTSRVRS_9bdd24f3",
+      "tag": "avencores_26__ 10 _ Sha-01_ MTSRVRS_5d3d18a4",
       "server": "212.67.17.204",
       "server_port": 443,
       "uuid": "663836b2-f676-43fb-977f-47c495b1b383",
@@ -637,6 +637,20 @@
           "enabled": true,
           "public_key": "6J829WZ6hhEtCmz8CfBBBP69ikMDlYPF2Lumyel6XTI",
           "short_id": "d484643ca8396614"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "avencores_26___276b7b4e",
+      "server": "201.24.49.19",
+      "server_port": 2200,
+      "uuid": "716903b1-e6bf-4420-9e27-65e4451692e9",
+      "transport": {
+        "type": "ws",
+        "path": "/v1",
+        "headers": {
+          "Host": "rzd.ru"
         }
       }
     },
@@ -805,27 +819,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "avencores_26__ FR _ 45.196.201.131_680f1507",
-      "server": "45.196.201.131",
-      "server_port": 443,
-      "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "storage.yandex.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04",
-          "short_id": "c6ef72e4635d15a5"
-        }
-      }
-    },
-    {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
@@ -858,8 +851,9 @@
         "igareck_checked__ Anycast-IP _ _ _ _CIDR_ VK_ece278e8",
         "igareck_checked__ Anycast-IP _ _ _ _CIDR_ VK_7fdae5d5",
         "igareck_checked__ Anycast-IP _ _ _ _CIDR_ VK_9d94f881",
-        "avencores_26__ 43 _ Sha-01_ MTSRVRS_c8223818",
-        "avencores_26__ 47 _ Sha-01_ MTSRVRS_9bdd24f3",
+        "avencores_26__ 2 _ Sha-01_ MTSRVRS_1f3f1ba7",
+        "avencores_26__ 10 _ Sha-01_ MTSRVRS_5d3d18a4",
+        "avencores_26___276b7b4e",
         "avencores_26__RU_1_3.5MB_s_89d89de2",
         "avencores_26__openproxylist.com_ vless-PL_c17e7847",
         "avencores_26__openproxylist.com_ vless-NL_b7693f5e",
@@ -868,8 +862,7 @@
         "avencores_26__ RU _ 45.90.32.132_d866ba5a",
         "avencores_26__ CH _ 45.195.137.5_38809742",
         "avencores_26__ CH _ 45.195.137.48_3eab2019",
-        "avencores_26__ RU _ 83.217.201.244_45ce8b71",
-        "avencores_26__ FR _ 45.196.201.131_680f1507"
+        "avencores_26__ RU _ 83.217.201.244_45ce8b71"
       ],
       "url": "https://cp.cloudflare.com",
       "interval": "5m",
@@ -911,8 +904,9 @@
         "igareck_checked__ Anycast-IP _ _ _ _CIDR_ VK_ece278e8",
         "igareck_checked__ Anycast-IP _ _ _ _CIDR_ VK_7fdae5d5",
         "igareck_checked__ Anycast-IP _ _ _ _CIDR_ VK_9d94f881",
-        "avencores_26__ 43 _ Sha-01_ MTSRVRS_c8223818",
-        "avencores_26__ 47 _ Sha-01_ MTSRVRS_9bdd24f3",
+        "avencores_26__ 2 _ Sha-01_ MTSRVRS_1f3f1ba7",
+        "avencores_26__ 10 _ Sha-01_ MTSRVRS_5d3d18a4",
+        "avencores_26___276b7b4e",
         "avencores_26__RU_1_3.5MB_s_89d89de2",
         "avencores_26__openproxylist.com_ vless-PL_c17e7847",
         "avencores_26__openproxylist.com_ vless-NL_b7693f5e",
@@ -921,8 +915,7 @@
         "avencores_26__ RU _ 45.90.32.132_d866ba5a",
         "avencores_26__ CH _ 45.195.137.5_38809742",
         "avencores_26__ CH _ 45.195.137.48_3eab2019",
-        "avencores_26__ RU _ 83.217.201.244_45ce8b71",
-        "avencores_26__ FR _ 45.196.201.131_680f1507"
+        "avencores_26__ RU _ 83.217.201.244_45ce8b71"
       ],
       "default": "auto",
       "interrupt_exist_connections": true
