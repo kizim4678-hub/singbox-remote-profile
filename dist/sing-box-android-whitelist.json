@@ -689,27 +689,6 @@
     },
     {
       "type": "vless",
-      "tag": "avencores_26__openproxylist.com_ vless-US_dd340844",
-      "server": "83.217.201.244",
-      "server_port": 445,
-      "uuid": "d01d5a74-09fb-4e9e-b0d9-38b5fd77ad70",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.avito.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "iWxxH0TWB1Ciz6sEwtfjUVY61OcTDihou5IJfkt0O0Q",
-          "short_id": "5b9d3e7f1a2c8406"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "avencores_26__openproxylist.com_ vless-RU_a4632b29",
       "server": "185.141.227.153",
       "server_port": 9001,
@@ -842,6 +821,27 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "avencores_26__ DE _ 154.222.9.98_4557f8ec",
+      "server": "154.222.9.98",
+      "server_port": 443,
+      "uuid": "b55dd203-630d-46a3-b506-c52ebcafa77c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "storage.yandex.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo",
+          "short_id": "8d3293f0066e129a"
+        }
+      }
+    },
+    {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
@@ -878,14 +878,14 @@
         "avencores_26__V2CROSS.COM_34108eda",
         "avencores_26__openproxylist.com_ vless-PL_c17e7847",
         "avencores_26__openproxylist.com_ vless-NL_b7693f5e",
-        "avencores_26__openproxylist.com_ vless-US_dd340844",
         "avencores_26__openproxylist.com_ vless-RU_a4632b29",
         "avencores_26__openproxylist.com_ vless-FR_a8d77e50",
         "avencores_26__openproxylist.com_ vless-RU_8dc0390e",
         "avencores_26__ RU _ 45.90.32.132_d866ba5a",
         "avencores_26__ FI _ 45.195.228.227_81dea5a8",
         "avencores_26__ CH _ 45.195.137.5_38809742",
-        "avencores_26__ CH _ 45.195.137.48_3eab2019"
+        "avencores_26__ CH _ 45.195.137.48_3eab2019",
+        "avencores_26__ DE _ 154.222.9.98_4557f8ec"
       ],
       "url": "https://cp.cloudflare.com",
       "interval": "5m",
@@ -931,14 +931,14 @@
         "avencores_26__V2CROSS.COM_34108eda",
         "avencores_26__openproxylist.com_ vless-PL_c17e7847",
         "avencores_26__openproxylist.com_ vless-NL_b7693f5e",
-        "avencores_26__openproxylist.com_ vless-US_dd340844",
         "avencores_26__openproxylist.com_ vless-RU_a4632b29",
         "avencores_26__openproxylist.com_ vless-FR_a8d77e50",
         "avencores_26__openproxylist.com_ vless-RU_8dc0390e",
         "avencores_26__ RU _ 45.90.32.132_d866ba5a",
         "avencores_26__ FI _ 45.195.228.227_81dea5a8",
         "avencores_26__ CH _ 45.195.137.5_38809742",
-        "avencores_26__ CH _ 45.195.137.48_3eab2019"
+        "avencores_26__ CH _ 45.195.137.48_3eab2019",
+        "avencores_26__ DE _ 154.222.9.98_4557f8ec"
       ],
       "default": "auto",
       "interrupt_exist_connections": true
