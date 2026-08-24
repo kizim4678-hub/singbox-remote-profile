@@ -298,10 +298,10 @@
     },
     {
       "type": "vless",
-      "tag": "zieng2__ Beget _ _10_7aaea193",
+      "tag": "zieng2__ Beget _ _10_7af1f16c",
       "server": "193.168.46.180",
       "server_port": 443,
-      "uuid": "41dd7366-102c-46b1-a3d2-674304b15cb6",
+      "uuid": "eaf7b8b8-c3d0-4097-9461-93aa5257a601",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -351,7 +351,7 @@
     },
     {
       "type": "vless",
-      "tag": "zieng2__ Selectel _ _13_fd98dc4a",
+      "tag": "zieng2__ Selectel _ _13_93027377",
       "server": "45.131.40.12",
       "server_port": 443,
       "uuid": "0ab6b3f5-65f0-4a80-9672-6a311fab1187",
@@ -361,7 +361,7 @@
         "server_name": "rus01.ultraspeed.top",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -372,41 +372,52 @@
     },
     {
       "type": "vless",
-      "tag": "zieng2__ Selectel _ _14_9cbb10ad",
-      "server": "87.228.122.108",
-      "server_port": 4100,
-      "uuid": "155e8dd4-a559-407a-9ea8-13a5e829f066",
-      "transport": {
-        "type": "ws",
-        "path": "/v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "zieng2__ Selectel _ _15_06cb6582",
-      "server": "94.26.249.154",
-      "server_port": 52006,
-      "uuid": "1dae6f7c-1880-07d0-adfc-a0ae010d3728",
+      "tag": "zieng2__ Selectel _ _14_b6a9e6ed",
+      "server": "45.131.40.12",
+      "server_port": 443,
+      "uuid": "0ab6b3f5-65f0-4a80-9672-6a311fab1187",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "sliver-vimri-nahui-daun.fastaichat.ru",
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
+        "server_name": "rus01.ultraspeed.top",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "90FUgmJX1CBru0UjtONGwq6lToXb5veyOwutf1GPY1Y",
+          "short_id": "589e6959130eedc3"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "zieng2__ SpaceWeb _ _16_d4801d97",
-      "server": "31.177.83.201",
+      "tag": "zieng2__ Selectel _ _15_63642229",
+      "server": "45.131.40.12",
+      "server_port": 443,
+      "uuid": "0ab6b3f5-65f0-4a80-9672-6a311fab1187",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "rus01.ultraspeed.top",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "90FUgmJX1CBru0UjtONGwq6lToXb5veyOwutf1GPY1Y",
+          "short_id": "589e6959130eedc3"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "zieng2__ Selectel _ _16_4e4650b5",
+      "server": "87.228.122.108",
       "server_port": 4100,
-      "uuid": "4cbdaf4f-ca34-4a00-9a96-49eaa6564b42",
+      "uuid": "155e8dd4-a559-407a-9ea8-13a5e829f066",
       "transport": {
         "type": "ws",
         "path": "/v1"
@@ -811,6 +822,76 @@
     },
     {
       "type": "vless",
+      "tag": "avencores_26__openproxylist.com_ vless-NL_b7693f5e",
+      "server": "5.129.210.63",
+      "server_port": 8443,
+      "uuid": "c80a96e8-d4a6-4785-b53b-a475b252c4ed",
+      "tls": {
+        "enabled": true,
+        "server_name": "sun6-21.userapi.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Z5WItgtmxxL_umUUIPO72kSTBGjlGg3sUPigtTG6wlI",
+          "short_id": "ac"
+        }
+      },
+      "transport": {
+        "type": "grpc"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "avencores_26__openproxylist.com_ vless-FR_2524eed2",
+      "server": "185.141.227.150",
+      "server_port": 9002,
+      "uuid": "2c634977-584e-4e1f-b501-1b70c77a6743",
+      "tls": {
+        "enabled": true,
+        "server_name": "api-maps.yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc-reality"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "avencores_26__openproxylist.com_ vless-RU_8dc0390e",
+      "server": "201.51.1.84",
+      "server_port": 16923,
+      "uuid": "ba222add-6ac1-45f1-9a18-f91cb38e324f",
+      "tls": {
+        "enabled": true,
+        "server_name": "api-maps.yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA",
+          "short_id": "10ffb85da1c2d986"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "neurex"
+      }
+    },
+    {
+      "type": "vless",
       "tag": "avencores_26_SC_https_a9a.xyz_5_d4c2a080",
       "server": "200.165.230.19",
       "server_port": 443,
@@ -899,76 +980,6 @@
     },
     {
       "type": "vless",
-      "tag": "avencores_26__openproxylist.com_ vless-NL_b7693f5e",
-      "server": "5.129.210.63",
-      "server_port": 8443,
-      "uuid": "c80a96e8-d4a6-4785-b53b-a475b252c4ed",
-      "tls": {
-        "enabled": true,
-        "server_name": "sun6-21.userapi.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Z5WItgtmxxL_umUUIPO72kSTBGjlGg3sUPigtTG6wlI",
-          "short_id": "ac"
-        }
-      },
-      "transport": {
-        "type": "grpc"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "avencores_26__openproxylist.com_ vless-FR_2524eed2",
-      "server": "185.141.227.150",
-      "server_port": 9002,
-      "uuid": "2c634977-584e-4e1f-b501-1b70c77a6743",
-      "tls": {
-        "enabled": true,
-        "server_name": "api-maps.yandex.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "grpc-reality"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "avencores_26__openproxylist.com_ vless-RU_8dc0390e",
-      "server": "201.51.1.84",
-      "server_port": 16923,
-      "uuid": "ba222add-6ac1-45f1-9a18-f91cb38e324f",
-      "tls": {
-        "enabled": true,
-        "server_name": "api-maps.yandex.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA",
-          "short_id": "10ffb85da1c2d986"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "neurex"
-      }
-    },
-    {
-      "type": "vless",
       "tag": "avencores_26__ RU _ 201.24.126.156_2a686a5d",
       "server": "201.24.126.156",
       "server_port": 4100,
@@ -1012,13 +1023,13 @@
         "zieng2__ Beget _ _7_571822fb",
         "zieng2__ Beget _ _8_af9d6575",
         "zieng2__ Beget _ _9_e3c86b02",
-        "zieng2__ Beget _ _10_7aaea193",
+        "zieng2__ Beget _ _10_7af1f16c",
         "zieng2__ MegaMax Network _ _11_b8cb88eb",
         "zieng2__ Selectel _ _12_6d64005a",
-        "zieng2__ Selectel _ _13_fd98dc4a",
-        "zieng2__ Selectel _ _14_9cbb10ad",
-        "zieng2__ Selectel _ _15_06cb6582",
-        "zieng2__ SpaceWeb _ _16_d4801d97",
+        "zieng2__ Selectel _ _13_93027377",
+        "zieng2__ Selectel _ _14_b6a9e6ed",
+        "zieng2__ Selectel _ _15_63642229",
+        "zieng2__ Selectel _ _16_4e4650b5",
         "igareck_checked__ The Netherlands _ _CIDR_ Beeline_666919da",
         "igareck_checked__ The Netherlands _ _CIDR_ Beeline_ab656d7c",
         "igareck_checked__ The Netherlands _ _CIDR_ Beeline_ca668989",
@@ -1038,14 +1049,14 @@
         "igareck_checked__ Anycast-IP _ _ _ _CIDR_ VK_37124032",
         "avencores_26__ 15 _ Sha-02_ MTSRVRS_f3069543",
         "avencores_26__ 20 _ Sha-02_ MTSRVRS_7651ce0d",
+        "avencores_26__openproxylist.com_ vless-NL_b7693f5e",
+        "avencores_26__openproxylist.com_ vless-FR_2524eed2",
+        "avencores_26__openproxylist.com_ vless-RU_8dc0390e",
         "avencores_26_SC_https_a9a.xyz_5_d4c2a080",
         "avencores_26_A - _ SG 10 TG_ _nodpai_d840d32a",
         "avencores_26_B - _ US 28 TG_ _nodpai_05230133",
         "avencores_26_B - _ DE 07 TG_ _nodpai_ba763bc3",
         "avencores_26_A - _ FR 03 TG_ _nodpai_3b055a1d",
-        "avencores_26__openproxylist.com_ vless-NL_b7693f5e",
-        "avencores_26__openproxylist.com_ vless-FR_2524eed2",
-        "avencores_26__openproxylist.com_ vless-RU_8dc0390e",
         "avencores_26__ RU _ 201.24.126.156_2a686a5d",
         "avencores_26__ RU _ 45.90.32.132_d866ba5a"
       ],
@@ -1073,13 +1084,13 @@
         "zieng2__ Beget _ _7_571822fb",
         "zieng2__ Beget _ _8_af9d6575",
         "zieng2__ Beget _ _9_e3c86b02",
-        "zieng2__ Beget _ _10_7aaea193",
+        "zieng2__ Beget _ _10_7af1f16c",
         "zieng2__ MegaMax Network _ _11_b8cb88eb",
         "zieng2__ Selectel _ _12_6d64005a",
-        "zieng2__ Selectel _ _13_fd98dc4a",
-        "zieng2__ Selectel _ _14_9cbb10ad",
-        "zieng2__ Selectel _ _15_06cb6582",
-        "zieng2__ SpaceWeb _ _16_d4801d97",
+        "zieng2__ Selectel _ _13_93027377",
+        "zieng2__ Selectel _ _14_b6a9e6ed",
+        "zieng2__ Selectel _ _15_63642229",
+        "zieng2__ Selectel _ _16_4e4650b5",
         "igareck_checked__ The Netherlands _ _CIDR_ Beeline_666919da",
         "igareck_checked__ The Netherlands _ _CIDR_ Beeline_ab656d7c",
         "igareck_checked__ The Netherlands _ _CIDR_ Beeline_ca668989",
@@ -1099,14 +1110,14 @@
         "igareck_checked__ Anycast-IP _ _ _ _CIDR_ VK_37124032",
         "avencores_26__ 15 _ Sha-02_ MTSRVRS_f3069543",
         "avencores_26__ 20 _ Sha-02_ MTSRVRS_7651ce0d",
+        "avencores_26__openproxylist.com_ vless-NL_b7693f5e",
+        "avencores_26__openproxylist.com_ vless-FR_2524eed2",
+        "avencores_26__openproxylist.com_ vless-RU_8dc0390e",
         "avencores_26_SC_https_a9a.xyz_5_d4c2a080",
         "avencores_26_A - _ SG 10 TG_ _nodpai_d840d32a",
         "avencores_26_B - _ US 28 TG_ _nodpai_05230133",
         "avencores_26_B - _ DE 07 TG_ _nodpai_ba763bc3",
         "avencores_26_A - _ FR 03 TG_ _nodpai_3b055a1d",
-        "avencores_26__openproxylist.com_ vless-NL_b7693f5e",
-        "avencores_26__openproxylist.com_ vless-FR_2524eed2",
-        "avencores_26__openproxylist.com_ vless-RU_8dc0390e",
         "avencores_26__ RU _ 201.24.126.156_2a686a5d",
         "avencores_26__ RU _ 45.90.32.132_d866ba5a"
       ],
